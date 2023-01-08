@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | nomodifycreations</title>
+    <link rel="stylesheet" href="/Assets/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="/Assets/Imgs/favicon.png">
+    <link rel="stylesheet" href="/Assets/css/styles.css">
+</head>
+<body>
+    <header>
+        
+        <nav>
+            <ul class="nav__links">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/projects.html">Projects</a></li>
+                <li><a href="/blog.html">Blog</a></li>
+                <li><a href="/about.html">About</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="/contact.html">Contact</a>
+        <p class="menu cta">Menu</p>
+    </header>
+    <div id="mobile__menu" class="overlay">
+        <a class="close">&times;</a>
+        <div class="overlay__content">
+            <a href="/index.html">Home</a>
+            <a href="/projects.html">Projects</a>
+            <a href="/blog.html">Blog</a>
+            <a href="/about.html">About</a>
+        </div>
+    </div>
+    <script type="text/javascript" src="mobile.js"></script>
+                            
+      <!--==================== PORTFOLIO ====================-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Download Now!</h2>
+        <span class="section__subtitle">Most recent projects</span>
+
+        <div class="portfolio__container container swiper-container">
+            <div class="swiper-wrapper">
+                
+                <!--==================== PORTFOLIO 1 ====================-->
+                <div class="portfolio__content grid swiper-slide">
+                    <img src="/Assets/Imgs/rpsgame.png" alt="" class="portfolio__img">
+                
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Rock Paper Scissor</h3>
+                        <p class="portfolio__description">A simple ui rock paper scissor game made in python</p>
+                        
+                        <a href="/Assets/apps/nomodifycreationsRPS.zip" class="button button--flex button--small portfolio__button">
+                            Download
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                
+                   
+                <!--==================== PORTFOLIO 2 ====================-->
+                   <div class="portfolio__content grid swiper-slide">
+                    <img src="/Assets/Imgs/atmapp.png" alt="" class="portfolio__img">
+                
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">ATM App</h3>
+                        <p class="portfolio__description">A simple ATM app made in C++</p>
+                        
+                        <a href="/Assets/apps/ATMAPP.release.zip" class="button button--flex button--small portfolio__button">
+                            Download
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>       
+                
+                <!--==================== PORTFOLIO 3 ====================-->
+                <div class="portfolio__content grid swiper-slide">
+                    <img src="/Assets/Imgs/StorePage.png" alt="" class="portfolio__img">
+                
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Nomodify Store</h3>
+                        <p class="portfolio__description">A Place where you can purchase art, apps, games and merchandise!</p>
+                        
+                        <a href="/nomodifystore.html" class="button button--flex button--small portfolio__button">
+                            Check It Out!
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>  
+            </div>
+            <div id="donate-button-container">
+                <div id="donate-button"></div>
+                <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+                <script>
+                PayPal.Donation.Button({
+                env:'production',
+                hosted_button_id:'N385HP6VE6T3Q',
+                image: {
+                src:'https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif',
+                alt:'Donate with PayPal button',
+                title:'PayPal - The safer, easier way to pay online!',
+                }
+                }).render('#donate-button');
+                </script>
+                </div>
+
+            <!-- Add Arrows -->
+            <div class="swiper-button-next">
+                <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+            </div>
+            <div class="swiper-button-prev">
+                <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+            </div>
+
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    
+
+    <!--==================== PROJECT IN MIND ====================-->
+    <section class="project section">
+        <div class="project__bg">
+            <div class="project__container container grid">
+                <div class="project__data">
+                    <h2 class="project__title">You have a new project</h2>
+                    <p class="project__description">Contact us now and get a 70% discount on your next project.</p>
+                    <a href="/Contact/contact.html" class="button button--flex button--white">
+                        Contact Us
+                        <i class="uil uil-message project__icon button__icon"></i>
+                    </a>
+                </div>
+
+                <img src="/Assets/Imgs/project.jpg.png" alt="" class="project__img">
+            </div>
+        </div>
+    </section>
+</body>
+</html>

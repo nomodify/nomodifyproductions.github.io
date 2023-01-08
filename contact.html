@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | nomodifycreations</title>
+    <link rel="stylesheet" href="/Assets/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="/Assets/Imgs/favicon.png">
+    <link rel="stylesheet" href="/Assets/css/styles.css">
+</head>
+<body>
+    <header>
+        
+        <nav>
+            <ul class="nav__links">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/projects.html">Projects</a></li>
+                <li><a href="/blog.html">Blog</a></li>
+                <li><a href="/about.html">About</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="/contact.html">Contact</a>
+        <p class="menu cta">Menu</p>
+    </header>
+    <div id="mobile__menu" class="overlay">
+        <a class="close">&times;</a>
+        <div class="overlay__content">
+            <a href="/index.html">Home</a>
+            <a href="/projects.html">Projects</a>
+            <a href="/blog.html">Blog</a>
+            <a href="/about.html">About</a>
+        </div>
+    </div>
+    <script type="text/javascript" src="mobile.js"></script>
+
+
+
+
+       <!--==================== CONTACT ME ====================-->
+       <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Us</h2>
+        <span class="section__subtitle">Get in touch</span>
+
+        <div class="contact__container container grid">
+            <div>
+                <div class="contact__information">
+                    <i class="uil uil-phone contact__icon"></i>
+
+                    <div>
+                        <h3 class="contact__title">Contact us.</h3>
+                        <span class="contact__subtitle">Contact our team if you have any problems.</span>
+                    </div>
+                </div>
+
+                <div class="contact__information">
+                    <i class="uil uil-envelope contact__icon"></i>
+
+                    <div>
+                        <h3 class="contact__title">Email</h3>
+                        <span class="contact__subtitle">nomodifycreations@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+
+            <form
+            action="https://formspree.io/f/xpzezolo"
+            method="POST"
+          >
+            <label>
+              Your email:
+              <input type="email" name="email">
+            </label>
+            <label>
+              Your message:
+              <textarea name="message"></textarea>
+            </label>
+            <!-- your other form fields go here -->
+            <button type="submit">Send</button>
+          </form>
+</main>
+</body>
+</html>

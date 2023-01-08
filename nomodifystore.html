@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nomodify's Store</title>
+    <link rel="stylesheet" href="/Assets/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="/Assets/Imgs/favicon.png">
+    <link rel="stylesheet" href="/Assets/css/styles.css">
+</head>
+
+<header>
+  
+  <nav>
+      <ul class="nav__links">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/projects.html">Projects</a></li>
+          <li><a href="/blog.html">Blog</a></li>
+          <li><a href="/about.html">About</a></li>
+      </ul>
+  </nav>
+  <a class="cta" href="/contact.html">Contact</a>
+  <p class="menu cta">Menu</p>
+</header>
+<div id="mobile__menu" class="overlay">
+  <a class="close">&times;</a>
+  <div class="overlay__content">
+      <a href="/index.html">Home</a>
+      <a href="/projects.html">Projects</a>
+      <a href="/blog.html">Blog</a>
+      <a href="/about.html">About</a>
+  </div>
+</div>
+<script type="text/javascript" src="mobile.js"></script>
+
+
+<body style="background-color:rgb(255, 255, 255);text-align:center">
+    <h1>Coming Soon</h1>
+
+    <h2>Games, Apps, Merchandise and Art</h2>
+    <h2>This is where we will sell merchandise, applications, games and more suggested by the customer</p>
+    
+
+
+
+    <h3>If you would like to help fund this website</h3>
+    <div id="donate-button-container">
+      <div id="donate-button"></div>
+      <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+      <script>
+      PayPal.Donation.Button({
+      env:'production',
+      hosted_button_id:'N385HP6VE6T3Q',
+      image: {
+      src:'https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif',
+      alt:'Donate with PayPal button',
+      title:'PayPal - The safer, easier way to pay online!',
+      }
+      }).render('#donate-button');
+      </script>
+      </div>
+</body>
+</html>
